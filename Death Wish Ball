@@ -1,0 +1,26 @@
+import random
+answers = ["Yes", "No","DEATH","blah","maybe"]
+
+#DEATH WISH BALL
+
+from termcolor import colored # For color
+
+print(colored('hello','blue'), colored('world','green')) # For color
+
+def game():
+		print(colored("Welcome to the Death Wish Ball!","red")) #color
+		input(colored("Ask a question at your own cost? >>>","red","on_blue"))
+		answer=random.choice(answers)
+		print(colored(answer,"yellow"))  #color
+		#print(answer)
+		#print(answers[3])
+
+play_game = True
+keep_playing = True
+try:
+    while keep_playing:
+				game()
+				play_again = input("You want to keep risking your life? Yes or No ")
+				if play_again!= "Yes":
+				keep_playing = False
+				 
