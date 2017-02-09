@@ -19,8 +19,12 @@ play_game = True
 keep_playing = True
 try:
     while keep_playing:
-				game()
-				play_again = input("You want to keep risking your life? Yes or No ")
-				if play_again!= "Yes":
-				keep_playing = False
-				 
+	game()
+	play_again = input("You want to keep risking your life? Yes or No ")
+	if play_again!= "Yes":
+	  keep_playing = False
+	  print ("You are no longer living HA HA HA!!")
+				
+except(KeyboardInterrupt):
+    print("You are no longer living HA HA HA!!")
+    exit
