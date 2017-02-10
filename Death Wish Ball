@@ -6,7 +6,7 @@ answers = ["Yes", "No","DEATH","blah","maybe"]
 
 from termcolor import colored # For color
 
-print(colored('hello','blue'), colored('world','blue')) # For color
+print(colored('Hello my subject','blue')) # For color
 
 def game():
 		print(colored("Welcome to the Death Wish Ball!","red")) #color
@@ -21,8 +21,8 @@ keep_playing = True
 try:
     while keep_playing:
       game()
-      play_again = input("You want to keep risking your life? Yes or No.")
-      if play_again!= "Yes":
+      play_again = input("You want to keep risking your life? yes or no.")
+      if play_again!= "yes":
         keep_playing = False
         print ("You are no longer living HA HA HA!!")
 				
