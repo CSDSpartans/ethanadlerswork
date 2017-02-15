@@ -1,6 +1,7 @@
 
+
 import random
-answers = ["Yes", "No","DEATH","blah","maybe"]
+answers = ["Yes", "No","DEATH","blah","maybe","impossible","Never in a million years","Possibly","Absolutly","Ask again later"]
 
 #DEATH WISH BALL
 
