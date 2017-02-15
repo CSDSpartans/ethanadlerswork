@@ -11,9 +11,9 @@ print(colored('Hello my subject','blue')) # For color
 
 def game():
 		print(colored("Welcome to the Death Wish Ball!","red")) #color
-		input(colored("Ask a question at your own cost? >>>","red","on_blue"))
+		input(colored("Ask a question at your own cost? >>>","red","on_yellow"))
 		answer=random.choice(answers)
-		print(colored(answer,"yellow"))  #color
+		print(colored(answer,"red"))  #color
 		#print(answer)
 		#print(answers[3])
 
