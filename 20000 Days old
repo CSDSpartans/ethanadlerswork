@@ -10,7 +10,7 @@ print(datetime.now() + timedelta(days=20000))
 birthday = input("What is your birthday? YYYYMMDD \n")
 
 #print('You will be 20000 days old on:')
-#print (birthday + timedelta(days=22000))
+#print (birthday + timedelta(days=20000))
 year=int(birthday[0:4])
 month=int(birthday[4:6])
 day=int(birthday[6:8])
