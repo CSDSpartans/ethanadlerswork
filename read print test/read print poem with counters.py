@@ -5,16 +5,14 @@ name_of_mydocument = 'tuesdayafternoon.txt'
 file_input = open(name_of_mydocument, 'r')     #open file for reading
 
 line = file_input.readline()
-print(line)
+print(line, end = '')
+line = file_input.readline()
 
+print(line, end = '') 
 line = file_input.readline()
 print(line)
 
 line = file_input.readline()
-print(line)
-
-line = file_input.readline()
-
 line_counter = 0
 stanza_counter = 1
 
