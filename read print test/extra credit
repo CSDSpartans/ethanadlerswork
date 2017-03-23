@@ -1,1 +1,57 @@
 
+name_of_mydocument = 'tuesdayafternoon.txt'
+file_input = open(name_of_mydocument, 'r')  
+
+name_of_outputdocument = 'myoutputdocument.txt'
+file_output = open(name_of_outputdocument, 'w')
+
+
+
+
+line = file_input.readline()
+print("      ", line, end = '')
+file_output.write(line)
+line = file_input.readline()
+print("      ", line, end = '')
+file_output.write(line)
+line = file_input.readline()
+
+
+line_counter = 0
+stanza_counter = 0
+total_lines_in_file = 2
+
+while line != '':                      
+    total_lines_in_file += 1
+    if line == '\n':
+      stanza_counter += 1
+      print ()
+      file_output.write(line)
+    else:
+      line_counter += 1
+      if line_counter < 10:
+        print(line_counter, ")   ", line, end = '')
+        file_output.write(str(line_counter))
+      
+        
+      else:
+        print(line_counter, ")  ", line, end = '')
+        file_output.write(str(line_counter))
+    line = file_input.readline()
+    
+  
+
+
+print ()
+file_output.write('\n')
+print ()
+file_output.write('\n')
+print ("The total number of stanzas in this poem are: ",  stanza_counter, '.')
+file_output.write("The total number of stanzas in this poem are: ")
+file_output.write(str(stanza_counter))
+print ("The total number of lines are: ", total_lines_in_file, '.')
+file_output.write("The total number of lines are: ")
+file_output.write(str(total_lines_in_file))
+
+file_input.close()
+file_output.close()
