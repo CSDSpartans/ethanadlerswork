@@ -1,0 +1,49 @@
+Create a folder in your Github repository called, read print test ,  please don’t ask how to create a folder, this is part of the test (remember you can Google it). 
+
+In this folder,
+
+Create a file called:  tuesdayafternoon.txt
+Copy the poem below into this file
+Notice
+The first  2 lines have the title and author
+		There are several stanzas
+
+Create another file in the repository which is the  program called: read print poem with counters.py
+	
+	At this point you may want to start working in repl.it
+
+In repl.it:
+	‘Add new file’ twice
+Copy the program into main.py (read the specs below to figure which program from above  you’ll want to 	copy into repl.it, you may want to use one of the programs as the template, but you may need to	use some lines in the other programs)
+Copy the poem into file1.py  , dont forget to do something to the name of file1.py
+Copy one of your previous programs into the program file.
+Now make changes to program as listed below.
+
+read print poem with line counter.py
+
+The program reads and prints each line of the file including the Title and Author
+Have a counter called line_counter to count each line of the poem, 
+Be careful not to count  lines for The Title and Author.
+Print the value of the line counter and the line of the poem on the same line. Example -  
+5)   Chasing the clouds away
+Print the line counter, the right parenthesis, for lines 1 - 9, have 3 spaces after the right       	parenthesis, for lines 10 and beyond have 2 spaces between the right parenthesis and 	the line in the poem. This is so the lines in the poem line up.
+Don’t count the blank lines between the stanzas
+
+Have another counter, called stanza_counter that counts the number of stanzas.
+Have another counter, called total_lines_in_file that counts the title, the author, blank lines and 		the actual poem lines.	
+	
+After the whole poem is printed,
+
+ Print 2 blank lines, then print
+		“Total Number of Stanzas in this poem are:  “ (print the value of stanza_counter on the same line)
+	On a new line, print the 
+		“Total Number of LInes in this file are:  “ (print the value of total_lines_in_file on the same line)
+	Make sure all counters are the correct amount.
+
+
+
+On a new line, print the album that Tuesday Afternoon first appeared and
+	Print the year the album was released. (Do a Google Search to find out the information), at the  
+                     end of the program simply print it out. No need to use variables for this.
+Print the names of the members of The Moody Blues
+		When you get home, listen to the whole album.
